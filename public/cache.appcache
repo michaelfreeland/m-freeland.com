@@ -1,0 +1,29 @@
+CACHE MANIFEST
+# 4-6-26:v1
+
+# CACHED
+CACHE:
+
+### ICONS
+/image/icon/amazon.svg
+/image/icon/apple.svg
+/image/icon/email.svg
+/image/icon/instagram.svg
+/image/icon/pandora.svg
+/image/icon/soundcloud.svg
+/image/icon/spotify.svg
+/image/icon/tiktok.svg
+/image/icon/youtube.svg
+/image/icon/amazon.svg
+
+### IMAGES
+/image/icon/logo.svg
+/image/icon/freeland.png
+/image/icon/studio.png
+
+# NON-CACHED
+NETWORK:
+index.html
+/css/stylesheet.css
+/javascript/script.javascript
+*
