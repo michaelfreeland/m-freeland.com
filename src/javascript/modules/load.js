@@ -1,7 +1,8 @@
 /**
  * load
- * Handles iPhone Touch Events For A Better Mobile Viewing Experience
+ * Handles iPhone Touch Events For A Better Mobile Viewing Experience & Forces Soundcloud iFrame Reload To Avoid Loading From Cache If Using Full Screen Web App
  */
+
  const load = () => {
     try {
         if( document.readyState !== "complete" )
@@ -19,6 +20,7 @@
                         elements[i].addEventListener( "touchstart", empty, false );
                     }
             }
+
     } catch( err ) {
         console.error( `Error: `, err );
     }

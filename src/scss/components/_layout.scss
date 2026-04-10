@@ -72,8 +72,8 @@ body {
         grid-area: 1 / 1 / span 1 / span 1;
 
         &> iframe {
-            height: clamp( 30vh, calc( 0.6 * 80vw ), 40vh );
-            height: clamp( calc( 30 * var( --vh ) ), calc( 0.6 * calc( 80 * var( --vw ) ) ), calc( 40* var( --vh ) ) );
+            height: clamp( 38vh, calc( 0.6 * 80vw ), 40vh );
+            height: clamp( calc( 38 * var( --vh ) ), calc( 0.6 * calc( 80 * var( --vw ) ) ), calc( 40* var( --vh ) ) );
             width: 70vw;
             width: calc( 70 * var( --vw ) );
             align-self: center;
